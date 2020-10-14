@@ -117,18 +117,69 @@ header h2 {
 
 
 footer {
-    width: 100%;
-    padding: 40px 40px;
-    margin-top: 20px;
-    overflow: hidden;
-    background-color: antiquewhite
+display: flex;
+flex-flow: row wrap;
+color: #ea7752;
+background-color: #fff9f2;
 }
 
-.disclaimer {
-
-display: none;
-
+h2 {
+font-weight: bold;
+font-size: 40px;
+font-family: 'Montserrat', sans-serif;
 }
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer li {
+list-style: none;
+padding-bottom: 10px;
+}
+
+
+
+.infoList {
+color: #111111;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+}
+
+#space{
+    padding-bottom: 5px;
+}
+
+#päev{
+font-weight: bold;  
+color: #111111;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+}
+
+.lingid{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5d3f92;
+}
+
+.footerLogo {
+flex: 1 200px;
+padding-left: 40px;
+}
+
+
+.info {
+display: flex;
+flex: 3 0px;
+flex-flow: row wrap;
+justify-content: space-evenly;
+}
+
+
+
 
 
 
