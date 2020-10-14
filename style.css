@@ -42,9 +42,7 @@ header h1 {
     padding-bottom: 40px;
 }
 
-h1 span{
-    display: block;
-}
+
 
 .button{
     border: 1px outset white;
@@ -151,7 +149,7 @@ font-size: 18px;
     padding-bottom: 5px;
 }
 
-#päev{
+#bold{
 font-weight: bold;  
 color: #111111;
 font-family: 'Montserrat', sans-serif;
@@ -173,22 +171,22 @@ padding-left: 40px;
 
 .info {
 display: flex;
-flex: 3 0px;
+flex: 1 0%;
 flex-flow: row wrap;
-justify-content: space-evenly;
+justify-content: flex-start;
+gap: 100px;
 }
 
+#fb{
+    padding-top: 28px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 700px) {
+    .info {
+      justify-content: flex-start;
+      margin-left: 20px;
+    }
+    .footerLogo{
+        display: none;
+    }
+  }
