@@ -28,6 +28,16 @@ header .header-banner {
     display: table;
 }
 
+header .header-banner_meist {
+    background-image: url("bg-meist-full.png");
+    width: 100%;
+    height: calc(100vh - 500px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
 
 header h1 {
     font-family: 'Montserrat', sans-serif;
@@ -39,6 +49,19 @@ header h1 {
     text-align: left;
     padding-left: 80px;
     padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.header-text_meist{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 200px;
     padding-bottom: 40px;
 }
 
@@ -111,6 +134,59 @@ header h2 {
     width: 50px;
     height: 50px;
     vertical-align: middle;
+}
+
+.meist-item{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap; 
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.meist-menu h1, p {
+    color: #47525E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.meist-menu h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #ea7752;
+}
+
+.meist-item p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.item-img {
+    width: 30%;
+    min-width: 300px;
+    align-content: center;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.item-img img{
+    width: 100%;
+}
+
+.item-text {
+    width: 35%;    
+    min-width: 300px;
+    
+}
+
+.item-text2 {
+    width: 40%;
+    padding: 40px;
+    min-width: 300px;
+    padding-left: 100px;
 }
 
 
