@@ -1,17 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&subset=latin-ext');
-@media only screen and (min-width: 950px) {
-    .disclaimer {
-      display: block;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 300;
-      font-size: 18px;
-      letter-spacing: 2px;
-      line-height: 24px;
-      text-transform: uppercase;
-      float: left;
-      margin: 0 80px;
-    }
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"');
+
 
 body{
     margin: 0px
@@ -39,7 +27,7 @@ header .header-banner_meist {
 
 
 header h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-style: bold;
     font-size: 60px;
@@ -52,7 +40,7 @@ header h1 {
 }
 
 .header-text_meist{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-style: bold;
     font-size: 60px;
@@ -81,7 +69,7 @@ header h1 {
 
 
 header h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 30px;
     color: #5b368f;
@@ -101,6 +89,7 @@ header h2 {
 .topnav-right{
     float:right;
     padding-top: 20px;
+    padding-right: 50px;
 }
 
 
@@ -111,7 +100,7 @@ header h2 {
   text-decoration: none;
   padding: 20px 20px;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #492361;
     font-weight: 700;
     
@@ -169,7 +158,7 @@ header h2 {
 
 .meist-menu h1, p {
     color: #47525E;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .meist-menu h1 {
@@ -219,7 +208,7 @@ background-color: #fff9f2;
 h2 {
 font-weight: bold;
 font-size: 40px;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 .footer ul {
@@ -235,7 +224,7 @@ padding-bottom: 10px;
 
 .infoList {
 color: #111111;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-size: 18px;
 }
 
@@ -246,12 +235,12 @@ font-size: 18px;
 #bold{
 font-weight: bold;
 color: #111111;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-size: 18px;
 }
 
 .lingid{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: #5d3f92;
@@ -287,7 +276,7 @@ gap: 100px;
   }
 
 .kategooriad {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 25px;
   color: #ea7752;
   line-height: 50px;
@@ -348,7 +337,7 @@ gap: 100px;
 }
 
 .row h2{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 2vw;
   color: #5d3f92;
   position: absolute;
@@ -383,19 +372,19 @@ gap: 100px;
 .tooteInfo h1{
   color: #ea7752;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 30px;
 }
 
 .tooteInfo p{
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+ font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: black;
 }
 .tooteInfo span{
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: black;
 }
