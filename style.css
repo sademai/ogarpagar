@@ -64,7 +64,6 @@ header h1 {
     opacity: 95%;
     margin-bottom: 70px;
 
-
 }
 
 
@@ -105,7 +104,7 @@ header h2 {
   font-family: 'Poppins', sans-serif;
   color: #492361;
     font-weight: 700;
-    
+
 }
 
 .topnav .icon {
@@ -120,7 +119,7 @@ header h2 {
 
 .cart {
     width: 50px;
-}   
+}
 
 
 @media screen and (max-width: 700px) {
@@ -142,7 +141,7 @@ header h2 {
     float: none;
     display: block;
     text-align: right;
-    
+
   }
 }
 
@@ -151,7 +150,7 @@ header h2 {
     display: flex;
     flex-flow: row wrap;
     display: -webkit-flex;
-    -webkit-flex-flow: row wrap; 
+    -webkit-flex-flow: row wrap;
     display: -moz-flex;
     -moz-flex-flow: row wrap;
     justify-content: center;
@@ -187,9 +186,9 @@ header h2 {
 }
 
 .item-text {
-    width: 35%;    
+    width: 35%;
     min-width: 300px;
-    
+
 }
 
 .item-text2 {
@@ -239,7 +238,6 @@ font-weight: bold;
 color: #111111;
 font-family: 'Poppins', sans-serif;
 font-size: 18px;
-
 }
 
 .lingid a{
@@ -247,7 +245,7 @@ font-size: 18px;
     font-size: 18px;
     font-weight: bold;
     color: #5d3f92;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .footerLogo {
@@ -291,6 +289,18 @@ gap: 100px;
 
 }
 
+.tellimus {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: #ea7752;
+  line-height: 50px;
+  text-align: left;
+  padding-left: 120px;
+  padding-top: 90px;
+  padding-bottom: 10px;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -319,6 +329,39 @@ gap: 100px;
   margin: 15px;
   box-shadow: 3px 3px 5px 5px rgba(255,249,242,.5);
 }
+
+.tellimusColumn {
+  float: left;
+  width: 35%;
+  margin: 15px;
+  padding-left: 100px;
+}
+
+.tellimusColumn1 {
+  float: left;
+  width: 35%;
+  margin: 15px;
+  padding-left: 80px;
+}
+
+.saada {
+  background-color: #5d3f92;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  height: 60px;
+  width: 250px;
+  border: 1px outset white;
+  margin-left: 80px;
+  margin-bottom: 70px;
+  border-radius: 40px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
 
 @media only screen and (max-width: 700px) {
   .toodeColumn {
@@ -354,12 +397,52 @@ gap: 100px;
   margin: 0 auto;
 }
 
+form {
+  font-family: 'Poppins', sans-serif;
+}
 
 @media only screen and (max-width: 700px) {
   .kategooriad{
     padding-top: 40px;
   }
 
+input[type="text"] {
+  height: 50px;
+  width: 110%;
+  padding: 1em;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+  width: 110%;
+  padding: 1em;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.kohvikuInfo ul {
+    padding-top: 5px;
+    color: #111111;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+    display: inline-block;
+}
+
+.tellimusRow2 {
+    padding-left: 270px;
+}
+
+@media only screen and (max-width: 700px) {
   .row h2{
     font-size: 45px;
   }
@@ -372,6 +455,10 @@ gap: 100px;
   }
 }
 
+.bg {
+  width: 100%;
+  background-image: linear-gradient(#fff9f2, white);
+}
 
 .tooteInfo h1{
   color: #ea7752;
