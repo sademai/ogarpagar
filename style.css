@@ -25,7 +25,6 @@ header .header-banner_meist {
     display: table;
 }
 
-
 header h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -52,8 +51,6 @@ header h1 {
     padding-bottom: 40px;
 }
 
-
-
 .button{
     border: 1px outset white;
     background-color: white;
@@ -62,11 +59,8 @@ header h1 {
     margin-left: 80px;
     border-radius: 40px;
     opacity: 95%;
-    margin-bottom: 70px;
-
+    margin-bottom: 70px
 }
-
-
 
 header h2 {
     font-family: 'Poppins', sans-serif;
@@ -75,6 +69,7 @@ header h2 {
     color: #5b368f;
     text-align: center;
     vertical-align: middle;
+    z-index: 1;
 }
 
 .topnav {
@@ -84,7 +79,6 @@ header h2 {
     width: 100%;
     text-align: left;
     vertical-align: middle;
-    z-index: 1;
 }
 
 .topnav-right{
@@ -240,7 +234,7 @@ font-family: 'Poppins', sans-serif;
 font-size: 18px;
 }
 
-.lingid a{
+.lingid a {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -405,6 +399,7 @@ form {
   .kategooriad{
     padding-top: 40px;
   }
+}
 
 input[type="text"] {
   height: 50px;
@@ -419,7 +414,7 @@ input[type="text"] {
 }
 
 textarea {
-  height: 100px;
+  height: 150px;
   width: 110%;
   padding: 1em;
   border-radius: 4px;
