@@ -10,31 +10,25 @@
   <title>OgarPagar | Küpsetised </title>
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
   <header>
-    <div class="navbar">
-      <div class="container">
-        <div class="logo_div">
-          <a href="index.html">
-            <img class="logo" src="Logo.png" alt="logo"></a>
-        </div>
-
-
-        <div class="navbar_links">
-          <ul class="menu">
-
-            <li><a href="ostukorv.html"> <img class="cart" src="Taustaga.png" alt="cart"></a></li>
-            <li><a href="tooted.html">Tooted</a></li>
-
-            <li><a href="meist.html">Meist</a></li>
-
-          </ul>
-        </div>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html"><img class="logo" src="Logo.png"></a>
+      <div class="topnav-right">
+          <a href="index.html">Avaleht</a>
+          <a href="tooted.html">Tooted</a>
+          <a href="meist.html">Meist</a>
+          <a href="cart.html"><img src="taustaga.png" class="cart"></a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
       </div>
+      
     </div>
+      
     <div class="bg">
       <br><br><br>
     </div>
@@ -148,7 +142,17 @@
     </ul>
   </footer>
 
-
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+    
 </body>
 
 </html>
