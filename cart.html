@@ -16,19 +16,19 @@
 
 <body>
 
-        <header>
-    <div class="topnav" id="myTopnav">
-        <a href="index.html"><img class="logo" src="Logo.png"></a>
-      <div class="topnav-right">
-          <a href="index.html">Avaleht</a>
-          <a href="tooted.html">Tooted</a>
-          <a href="meist.html">Meist</a>
-          <a href="cart.html"><img src="Taustaga.png" class="cart"></a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i></a>
-      </div>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html"><img class="logo" src="Logo.png"></a>
+            <div class="topnav-right">
+                <a href="index.html">Avaleht</a>
+                <a href="tooted.html">Tooted</a>
+                <a href="meist.html">Meist</a>
+                <a href="cart.html"><img src="Taustaga.png" class="cart"></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+            </div>
 
-    </div>
+        </div>
 
         <div class="bg">
             <br><br><br>
@@ -41,42 +41,49 @@
         </div>
 
         <div class="toodeRow">
-            <div class="tellimusColumn">
+            <div class="tellimusColumn1">
                 <div class="kohvik">
                     <img src="Kohvik.png" alt="Kohvik" style="width:100%">
                 </div>
             </div>
             <div class="tellimusColumn">
-              <form>
-                  <label for="nimi">Nimi</label><br>
-                  <input type="text" id="nimi" name="nimi" placeholder="Eesnimi Perekonnanimi"><br>
-                  <label for="meiliaadress">Meiliaadress</label><br>
-                  <input type="text" id="meiliaadress" name="meiliaadress"><br>
-                  <label for="telefon">Telefoninumber</label><br>
-                  <input type="text" id="telefon" name="telefon"><br>
-                  <label for="kohaletoimetus">Kohaletoimetamine</label><br>
-                  <input type="text" id="kohaletoimetus" name="kohaletoimetus" placeholder="Aadress või tulen ise järgi"><br>
-                  <label for="tellimus">Tellimuse sisu</label><br>
-                  <textarea id="tellimus" name="tellimus" placeholder="Kirjelda kunaseks ja mida tellida soovid"></textarea><br>
-              </form>
+                <form>
+                    <label for="nimi">Nimi</label><br>
+                    <input type="text" id="nimi" name="nimi" placeholder="Eesnimi Perekonnanimi"><br>
+                    <div class="meil">
+                        <div class=tekst>
+                            <label for="meiliaadress">Meiliaadress</label><br>
+                            <input type="text" id="meiliaadress" name="meiliaadress"><br>
+                        </div>
+                        <div class=tekst>
+                            <label for="telefon">Telefoninumber</label><br>
+                            <input type="text" id="telefon" name="telefon"><br>
+                        </div>
+                    </div>
+                    <label for="kohaletoimetus">Kohaletoimetamine</label><br>
+                    <input type="text" id="kohaletoimetus" name="kohaletoimetus"
+                        placeholder="Aadress või tulen ise järgi"><br>
+                    <label for="tellimus">Tellimuse sisu</label><br>
+                    <textarea id="tellimus" name="tellimus"
+                        placeholder="Kirjelda kunaseks ja mida tellida soovid"></textarea><br>
+                </form>
             </div>
         </div>
         <div class="toodeRow">
-          <div class="tellimusColumn">
+            <div class="tellimusColumn">
                 <div class="kohvikuInfo">
-                  <ul style="list-style-type:none;">
-                      <li><span id="bold">OgarPagar OÜ</span></li>
-                      <li><span id="bold">E-R</span> 7:00 - 18:00</li>
-                      <li><span id="bold">L-P</span> 9:00 - 20:00</li>
-                  </ul>
-                  <ul style="list-style-type:none;">
-                      <li> <span><img src="mail.png" alt=""></span> Ogar@pagar.ee</li>
-                      <li> <span><img src="phone.png" alt=""></span> 5345 6890</li>
-                      <li> <span><img src="map-pin.png" alt=""></span> Nisu 12, Tartu, Eesti</li>
-                  </ul>
+                    <ul style="list-style-type:none;">
+                        <li><span id="bold">OgarPagar OÜ</span></li>
+                        <li><span id="bold">E-R</span> 7:00 - 18:00</li>
+                        <li><span id="bold">L-P</span> 9:00 - 20:00</li>
+                    </ul>
+                    <ul style="list-style-type:none;">
+                        <li class="list"> <span><img src="mail.png" alt=""></span> Ogar@pagar.ee</li>
+                        <li class="list"> <span><img src="phone.png" alt=""></span> 5345 6890</li>
+                        <li class="list"> <span><img src="map-pin.png" alt=""></span> Nisu 12, Tartu, Eesti</li>
+                    </ul>
                 </div>
             </div>
-            <div class="space"></div>
             <div class="tellimusColumn1">
                 <div class="saada">
                     <h1>Saada</h1>
@@ -112,9 +119,9 @@
             <li class="lingidList">
                 <h2>Lingid</h2>
                 <ul class="lingid">
-                  <li><a href="meist.html">Meist</a></li>
-                  <li><a href="tooted.html">Tooted</a></li>
-                  <li><a href="cart.html">Esita tellimus</a></li>
+                    <li><a href="meist.html">Meist</a></li>
+                    <li><a href="tooted.html">Tooted</a></li>
+                    <li><a href="cart.html">Esita tellimus</a></li>
                 </ul>
             </li>
             <li>
@@ -134,16 +141,16 @@
         </ul>
     </footer>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 
 </body>
 
