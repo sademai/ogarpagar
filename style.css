@@ -499,7 +499,11 @@ textarea {
   }
   .tellimusColumn{
     width: 80%;
-    
+  }
+  .kohvikuInfo{
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
