@@ -490,6 +490,26 @@ textarea {
   width: 45%;
 }
 
+#ok{
+  display: none;
+}
+
+#ok p{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+#ok h1{
+  color: #ea7752;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+
+
 .kohvik{
   margin-top: 26px;
 }
@@ -504,6 +524,13 @@ textarea {
     display: none;
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: stretch;
+  }
+  #ok p{
+    text-align: left;
+  }
+  #ok h1{
+    text-align: left;
   }
 }
 
