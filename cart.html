@@ -40,13 +40,18 @@
             <h1>Esita tellimus</h1>
         </div>
 
-        <div class="toodeRow">
+        <div id="rida" class="toodeRow">
             <div class="tellimusColumn1">
                 <div class="kohvik">
                     <img src="Kohvik.png" alt="Kohvik" style="width:100%">
                 </div>
             </div>
-            <div class="tellimusColumn">
+            <div id="ok" class="tellimusColumn">
+                <h1>Tellimus vastu võetud</h1>
+                <p>Täname tellimuse esitamise eest!</p>
+                <p>Vastame teie tellimusele ühe tööpäeva jooksul </p>
+            </div>
+            <div id="form" class="tellimusColumn">
                 <form>
                     <label for="nimi">Nimi</label><br>
                     <input type="text" id="nimi" name="nimi" placeholder="Eesnimi Perekonnanimi"><br>
@@ -84,8 +89,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="tellimusColumn">
-                <div class="saada">
+            <div id="saada" class="tellimusColumn">
+                <div onclick="hide()" class="saada">
                     <h1>Saada</h1>
                 </div>
             </div>
@@ -149,6 +154,13 @@
             } else {
                 x.className = "topnav";
             }
+        }
+
+        function hide() {
+            document.getElementById("form").style.display = "none";
+            document.getElementById("saada").style.display = "none";
+            document.getElementById("ok").style.display = "block"
+
         }
     </script>
 
